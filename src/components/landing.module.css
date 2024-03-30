@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'ThunderBlack';
+    src: url(THUNDER/Fonts/OpenType-TT/Thunder-BoldHC.ttf);
+}
+@font-face {
+    font-family: 'ThunderThin';
+    src: url(THUNDER/Fonts/OpenType-TT/Thunder-MediumHC.ttf);
+}
+/* .hero {
+    position: relative;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding-top: auto; 
+    padding-bottom: 0;
+} */
+.hero {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+}
+.head{
+    font-family: 'ThunderBlack';
+    font-size: 7vw;
+    color: #76181B;
+    padding-top: 5.5vh;
+    padding-left: 9.7vw;
+    /* width: 70%; */
+    /* text-align: center; */
+    /* margin-bottom: 2vh; */
+
+}
+
+.landing {
+    padding-top: 12vh;
+    height: 100vh;
+    background-color: #FFF8EE;
+    color: black;
+    font-size: 10vh;
+}
+.sub-head {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2vw;
+    color: #B49559;
+    padding-left: 72vw;
+    font-size: 2.55vh;
+    font-weight: 470;
+    font-stretch: 0.5;
+    line-height: 1.4;
+    padding-top: 2vh;
+    word-spacing: 5;
+}
+/* .circle{
+    position: relative;
+    width:200px;
+    height: 200px;
+    
+    background-color: #EDA65C;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%); 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    z-index: 999;
+} */
+    
+.logo{
+    background-color: #76181B;
+
+    
+}
+.about{
+    width: 90vw;
+    padding-left: 10vw;
+    padding-top: 23vh;
+}
+.about-head{
+    font-family: 'ThunderThin';
+    font-size: 12vh;
+    color: #76181B;
+    font-weight: 500;
+    /* text-align:; */
+}
+.about-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.6vh;
+    color: black;
+    font-weight: 500;
+    font-stretch: 3;
+    line-height: 1.5;
+    padding-top: 2vh;
+    word-spacing: 5;
+    text-align: justify;
+}
+.services{
+    padding-top: 9vh;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+
+}
+.services-head{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16.5vw;
+    font-weight: 700;
+    color: #76181B4D;
+    white-space: nowrap;
+    animation: rtl 4s infinite linear;
+    padding: 0 6rem;
+    letter-spacing: 0.5vh;
+}
+@keyframes rtl {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}

@@ -1,0 +1,148 @@
+@import url(https://db.onlinewebfonts.com/c/365834cfa7beb7ca64c00476397ddc32?family=Helvetica+Neue+Medium+Extended);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.montserrat_nav {
+  font-family: "Montserrat", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 500;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: montserrat_nav; */
+}
+
+:root {
+  --textColor: #76181B;
+  ;
+}
+nav {
+  margin-left: auto;
+}
+.navbar {
+  /* top: 3vh; */
+  position: fixed;
+  z-index: +99999;
+  background: #FFF1DC;
+}
+header a {
+  color: var(--textColor);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 2vh;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 12vh;
+  padding: 1.5rem 2rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: var(--textColor);
+  width: 100%;
+  /* margin-left: 5%; */
+  /* border-radius: 20px; */
+}
+
+nav a {
+  margin: 0 1rem;
+  color: var(--textColor);
+  text-decoration: none;
+}
+
+header .nav-btn {
+  /* padding: 5px; */
+  padding-top: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--textColor);
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1rem;
+}
+
+header div,
+nav {
+  display: flex;
+  align-items: center;
+}
+header a.visible {
+  visibility: visible;
+}
+.logo{
+    position: absolute;
+    height:40vh;
+    padding-top: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+  nav {
+    margin-right: auto;
+  }
+
+  /* header nav {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column; */
+  /* text-align: left; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* padding-top: 10rem;
+		gap: 1.5rem;
+		background-color: black;
+		transition: 1s;
+	} */
+  header nav {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: black;
+    transition: 1s;
+    text-align: left;
+    align-items: flex-start;
+    padding-top: 10rem;
+    padding-left: 2rem;
+  }
+  header .responsive_nav {
+    /* transform: translateY(0); */
+    top: 0;
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  nav a {
+    font-size: 1.5rem;
+    text-align: left;
+    background-color: #1d1d1d;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    width: 90%;
+  }
+  header a.visible {
+    visibility: visible;
+  }
+}
