@@ -28,6 +28,36 @@ Welcome to People Pulse, your strategic partner in political consulting. Special
     <h2 className={styles["services-head"]}>services</h2>
     <h2 className={styles["services-head"]}>services</h2>
     </div>
+    <div className="contents">
+      <div className="card1">
+        <h3>Political Strategy</h3>
+        <p>Our team models voting patterns, tracks political leaders, and meticulously analyzes media trends for clients' insights.</p>
+      </div>
+      <div className="card1">
+        <h3>Data Analytics</h3>
+        <p>Our advanced tech integrated solutions and data driven approaches will allow us to predict and act with atmost precision.</p>
+      </div>
+      <div className="card1">
+        <h3>Communications</h3>
+        <p>Our team creates impactful content, amplifying client messages across print and digital media, and provides strategic insights.</p>
+      </div>
+      <div className="card">
+        <h3>Campaigns & Operations</h3>
+        <p>Our team strategizes campaigns, focusing on brand governance and overseeing on-ground initiatives with assessment.</p>
+      </div>
+      <div className="card">
+        <h3>Strategic Research</h3>
+        <p>Our team analyzes government performance, identifies policy issues, and recommends diverse methods.</p>
+      </div>
+      <div className="card">
+        <h3>Performance Marketing</h3>
+        <p>Our team excels in marketing strategy, refining channels for growth, outreach, and sustainable expansion.</p>
+      </div>
+      <div className="card">
+        <h3>Data Analytics</h3>
+        <p>Our team predicts voting patterns, monitors leaders, and analyzes media trends, providing valuable client insights.</p>
+      </div>
+    </div>
     </div>
   );
 }

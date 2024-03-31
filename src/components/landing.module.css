@@ -121,6 +121,28 @@
     padding: 0 6rem;
     letter-spacing: 0.5vh;
 }
+.contents{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80vw;
+    padding-left: 10vw;
+}
+.card1{
+    width: 30vw;
+    height: 40vh;
+    background-color: #FFF8EE;
+    border-radius: 2vh;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    padding: 2vh;
+    margin-top: 5vh;
+}
+.card1 h3{
+    font-family: 'ThunderThin';
+    font-size: 3.5vh;
+    color: #76181B;
+    font-weight: 500;
+}
 @keyframes rtl {
     from {
         transform: translateX(0);
