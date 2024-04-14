@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/peoplepulse/static/css/main.28418e2c.css",
+    "main.js": "/peoplepulse/static/js/main.c70cfc90.js",
+    "static/js/453.3aff065c.chunk.js": "/peoplepulse/static/js/453.3aff065c.chunk.js",
+    "static/media/hero_img.png": "/peoplepulse/static/media/hero_img.91c5f9f85c058d6d8c2a.png",
+    "static/media/logi.png": "/peoplepulse/static/media/logi.a74c2a514f407ab7d606.png",
+    "static/media/Thunder-MediumHC.ttf": "/peoplepulse/static/media/Thunder-MediumHC.d37bd53af22dac0935d1.ttf",
+    "static/media/Thunder-BoldHC.ttf": "/peoplepulse/static/media/Thunder-BoldHC.2da403431a2cb4b75845.ttf",
+    "index.html": "/peoplepulse/index.html",
+    "main.28418e2c.css.map": "/peoplepulse/static/css/main.28418e2c.css.map",
+    "main.c70cfc90.js.map": "/peoplepulse/static/js/main.c70cfc90.js.map",
+    "453.3aff065c.chunk.js.map": "/peoplepulse/static/js/453.3aff065c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28418e2c.css",
+    "static/js/main.c70cfc90.js"
+  ]
+}
